@@ -43,6 +43,5 @@ for line in sys.stdin:
                     prejuizo_passado = 0.0
             quantidade_acoes_atual -= quantidade_acoes_vendidas
 
-    # print(json.dumps(impostos))
     sys.stdout.write(json.dumps(impostos) + "\n")
     sys.stdout.flush()
