@@ -44,4 +44,4 @@ for line in sys.stdin:
             quantidade_acoes_atual -= quantidade_acoes_vendidas
 
     sys.stdout.write(json.dumps(impostos) + "\n")
-    sys.stdout.flush()
+    # sys.stdout.flush()
