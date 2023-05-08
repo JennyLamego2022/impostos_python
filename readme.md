@@ -122,7 +122,7 @@ Para executar/testar, digitar na linha de comando:
 Optei em não colocar o docker nesse projeto, pois essa aplicação é de linha de comando (CLI), onde necessita de uma interação com o usuário via terminal. Nesse caso não tem interface web ou acesso externo do container que facilite essa interação, requerendo do usuário conhecimentos de Docker para acessar o bash do container para executar o arquivo py. 
 Achei menos usual para quem vai testar, colocar no docker.  Seria tranquilo, porém é mais fácil testar (já que é um arquivo .py, sem libs externas), só executando diretamente.
 
-Arquivo 'operacoes.txt', foi utilizado para testar a aplicação e verificar se todos os cálculos estavam sendo aplicados corretamente. Para essa aplicação o usuário irá interagair diretamente pelo terminal no formato de entrada indicado no item: "Como executar/testar o programa".
+Arquivo 'operacoes.txt', foi utilizado para testar a aplicação (através do comando no terminal: cat operacoes.txt | python calculo_imposto.py) e verificar se todos os cálculos estavam sendo aplicados corretamente. Para essa aplicação o usuário irá interagair diretamente pelo terminal no formato de entrada indicado no item: "Como executar/testar o programa".
 
 
 ## Pré-requisitos para rodar
