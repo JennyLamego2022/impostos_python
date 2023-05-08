@@ -6,6 +6,7 @@
  - [Bibliotecas](#2---uso-de-frameworks-ou-bibliotecas)
  - [Executar](#3---instruções-sobre-como-compilar-e-executar-o-projeto)
  - [Requisitos](#pré-requisitos-para-rodar)
+ - [Notas_adicionais](#4---notas-adicionais)
  
 
  <br>
@@ -116,6 +117,10 @@ Para executar/testar, digitar na linha de comando:
 - O código Python será executado e você poderá ver a saída no terminal.
 
 
+## 4 - Notas adicionais:
+
+Optei em não colocar o docker nesse projeto, pois essa aplicação é de linha de comando (CLI), onde necessita de uma interação com o usuário via terminal. Nesse caso não tem interface web ou acesso externo do container que facilite essa interação, requerendo do usuário conhecimentos de Docker para acessar o bash do container para executar o arquivo py. 
+Achei menos usual para quem vai testar, colocar no docker.  Seria tranquilo, porém é mais fácil testar (já que é um arquivo .py, sem libs externas), só executando diretamente.
 
 
 ## Pré-requisitos para rodar
