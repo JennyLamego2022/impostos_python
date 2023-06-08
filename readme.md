@@ -86,6 +86,7 @@ OBS: Certifique-se de que o Python esteja instalado em seu computador e que o di
 
 ### Como executar/testar o programa:
 
+Opção 1
 
 Para executar/testar, digitar na linha de comando: 
 
@@ -115,6 +116,21 @@ Para executar/testar, digitar na linha de comando:
 
 
 - O código Python será executado e você poderá ver a saída no terminal.
+
+
+Opção 2
+
+Instruções sobre como executar os testes da solução:
+
+- Foi criado um arquivo operações.txt, onde cada linha é uma listya com operações diferentes. 
+Para cada entrada, será gerada uma saída através da saída padrão stdout. 
+Para testar as operações, abra o terminal e digite o seguinte comando: 
+
+`cat operacoes.txt | python calculo_imposto.py`
+
+
+- Isso irá redirecionar a entrada do arquivo operacoes.txt para a entrada padrão do programa. Em seguida, você pode comparar a saída do programa com a saída esperada.
+
 
 
 ## 4 - Notas adicionais:
